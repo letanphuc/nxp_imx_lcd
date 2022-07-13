@@ -1,0 +1,8 @@
+{
+    "cmake.configureEnvironment": {
+        "ARMGCC_DIR": "/Applications/ARM/"
+    },
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=armgcc.cmake"
+    ]
+}
